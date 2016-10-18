@@ -8,6 +8,7 @@
     "homepage": "https://github.com/lisijie/php-framework-app",
     "type": "project",
     "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "lisijie",
