@@ -1,6 +1,6 @@
 {
     "name": "lisijie/framework-app",
-    "description": "Framework Basic Application Template",
+    "description": "Basic Application Template",
     "keywords": [
         "application template",
         "framework"
@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "lisijie/framework": "*"
+        "lisijie/framework": "~2.0"
     },
     "require-dev": {
 		"phpunit/phpunit": "~4.0"
