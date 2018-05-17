@@ -5,8 +5,9 @@ use Core\Command;
 
 class DemoCommand extends Command
 {
-    public function testAction($name)
+    public function testAction()
     {
-        $this->stdout("hello, {$name}\n");
+        \App::logger()->debug("debug...");
+        \App::logger()->info("info...");
     }
 }

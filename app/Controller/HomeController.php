@@ -1,10 +1,9 @@
 <?php
 namespace App\Controller;
 
-use Core\Controller as Controller;
-use Core\Lib\Cipher;
+use Core\Controller;
 
-class MainController extends Controller
+class HomeController extends Controller
 {
 
     public function init()
@@ -13,15 +12,14 @@ class MainController extends Controller
         $this->setLayoutSection('header', 'layout/section/header');
     }
 
-    public function indexAction()
+    public function welcomeAction()
     {
-
         $this->assign(array(
             'title' => '演示页面',
             'name' => 'world',
         ));
 
-        return $this->display();
+        return $this->render();
     }
 
 }
