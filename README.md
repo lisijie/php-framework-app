@@ -36,7 +36,7 @@ $ composer create-project lisijie/framework-app
         }
 
         location ~ \.php$ {
-            fastcgi_param  RUN_ENV development;
+            fastcgi_param  ENVIRONMENT development;
             fastcgi_pass   127.0.0.1:9000;
             fastcgi_index  index.php;
             include        fastcgi.conf;
